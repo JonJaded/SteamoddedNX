@@ -1,12 +1,12 @@
-# Steamodded - A Balatro ModLoader
+# SteamoddedNX - A Balatro ModLoader for Nintendo Switch
 
 ## Introduction
 
-Steamodded is a mod loader and injector for the game Balatro. Much like the [LÖVE2D engine](https://love2d.org/wiki/Main_Page) itself, it is built using [Lua](https://www.lua.org/). It is made with modularity and extensibility in mind, providing a large selection of APIs and other features to facilitate bringing your ideas to life.
+SteamoddedNX is a mod loader and injector for the game Balatro. Much like the [LÖVE2D engine](https://love2d.org/wiki/Main_Page) itself, it is built using [Lua](https://www.lua.org/). It is made with modularity and extensibility in mind, providing a large selection of APIs and other features to facilitate bringing your ideas to life.
 
 ## Installation
 
-### How to Install Steamodded
+### How to Install SteamoddedNX
 
 Please refer to the [Installation Instructions](https://github.com/Steamopollys/Steamodded/wiki/01.-Getting-started) in the Steamodded guide. While it is possible to use the injector for versions 0.9.8 and below, this method is no longer recommended and is deprecated starting in version 1.0, which is currently in Alpha.
 
