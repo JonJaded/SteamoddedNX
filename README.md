@@ -1,4 +1,4 @@
-# SteamoddedNX - A Balatro ModLoader for Nintendo Switch
+# SteamoddedNX - A Balatro ModLoader port for Nintendo Switch
 
 ## Prelude
 
@@ -12,7 +12,14 @@ SteamoddedNX is a mod loader and injector for the game Balatro. Much like the [L
 
 ### How to Install SteamoddedNX
 
-Please refer to the [Installation Instructions](https://github.com/Steamopollys/Steamodded/wiki/01.-Getting-started) in the Steamodded guide. While it is possible to use the injector for versions 0.9.8 and below, this method is no longer recommended and is deprecated starting in version 1.0, which is currently in Alpha.
+- Download this repo by clicking the green code button and clicking download zip, and extract it somewhere safe.
+- Dump the update of the latest current Balatro, in NCA FS/romFS form using your favorite NX dump tool.
+- Once complete, connect your SD card to your computer, navigate to the dumped update location and zip the various folders and lua scripts into a standard zip, ensuring that your zip contains the dumped files at the root, and are not nested in a folder
+- Copy your dumped zip to the safe location of your extracted repo.
+- Drag the zip onto SteamoddedNX_injector.py and wait for the injector to complete then press Enter.
+- Extract the contents of the modded zip folder into /atmosphere/contents/0100CD801CE5E000/romfs
+- Not needed but if you would like to see crash errors from your mods, open the file globals.lua and edit line 62 and edit self.F_NO_ERROR_HAND and replace true with false
+- Copy the atmosphere folder back to your switch, and enjoy your Balatro with mods!
 
 ## How to Install a Mod
 
@@ -22,9 +29,9 @@ Please refer to the [Installation Instructions](https://github.com/Steamopollys/
 
 ## Limitations
 
-- Lovely is not supported on the switch, so mods that require it will not work.
-- Obviously, limited to mods that function on 0.9.8 version of sMOD.
-- Card suit customization introduced in version 1.0.1g (Friends of Jimbo) do not work.
+- Lovely is not supported on the switch, so mods that require it will NOT work.
+- Limited to mods that function on 0.9.8 version of sMOD. This means you may need to find an older version of a mod you want to play, if it already doesn't require lovely.
+- Card suit customization introduced in version 1.0.1g (Friends of Jimbo) will not work.
 
 ## Thanks
 
