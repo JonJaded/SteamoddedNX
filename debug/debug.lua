@@ -1,22 +1,14 @@
---- STEAMODDED CORE
---- MODULE DEBUG
+----------------------------------------------
+------------MOD DEBUG SOCKET------------------
 
 function initializeSocketConnection()
-    local socket = require("socket")
-    client = socket.connect("localhost", 12345)
-    if not client then
-        print("Failed to connect to the debug server")
-    end
+--    local socket = require("socket")				-- socket module does not function on love_NX
+--    client = socket.connect("localhost", 12345)		-- byebye baby
+--    if not client then
+        print("Failed to connect to the debug server")		-- just return an error
+--    end
 end
 
-local log_levels = {
-    ['TRACE'] = 1,
-    ['DEBUG'] = 2,
-    ['INFO '] = 3,
-    ['WARN '] = 4,
-    ['ERROR'] = 5,
-    ['FATAL'] = 10,
-}
 -- message, logger in this order to preserve backward compatibility
 function sendTraceMessage(message, logger)
 	sendMessageToConsole("TRACE", logger, message)
@@ -46,7 +38,6 @@ end
 
 function sendMessageToConsole(level, logger, message)
     level = level or "DEBUG"
-    if log_levels[level] < SMODS.config.log_level then return end
     logger = logger or "DefaultLogger"
     message = message or "Default log message"
     date = os.date('%Y-%m-%d %H:%M:%S')
