@@ -19,7 +19,7 @@ SteamoddedNX is a mod loader and injector for the game Balatro. Much like the [L
 
 ### How to Install SteamoddedNX
 
-- Download this repo by clicking the green `Code` button near the top and clicking `Download ZIP`, and extract it som safe.
+- Download this repo by clicking the green `Code` button near the top and clicking `Download ZIP`, and extract it somewhere safe.
 - Dump your current **update** of Balatro, in NCA FS or romFS format using your favorite NX dump tool.
 - Once complete, connect your SD card to your computer, navigate to the dumped update location. Copy the `Patch RomFS` folder to inside your repo extraction folder. Now enter the folder and ZIP the contents of the `Patch RomFS` into a standard ZIP, ensuring that your ZIP contains the dumped files at the root, and are NOT nested in an additional folder inside the ZIP.
 - Copy your dumped ZIP inside the safe location of your extracted repo on your computer.
