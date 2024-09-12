@@ -30,7 +30,7 @@ SteamoddedNX is a mod loader and injector for the game Balatro. Much like the [L
 
 ## How to Install a Mod
 
-- Find and download a sMODS 0.9.8 compatible mod.
+- Find and download a sMOD 0.9.8 compatible mod.
 - Navigate to your Mods directory (see the installation instructions).
 - Put the mod into that directory. (The mod can be a single file if there is only one file provided, or it can be a whole folder.)
 - Launch the game and enjoy!
