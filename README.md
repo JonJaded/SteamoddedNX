@@ -10,16 +10,22 @@ SteamoddedNX is a mod loader and injector for the game Balatro. Much like the [L
 
 ## Installation
 
+### Requirements
+
+- A modded switch
+- A legal copy of Balatro for the switch, with the latest update
+- A valid python install
+
 ### How to Install SteamoddedNX
 
-- Download this repo by clicking the green code button and clicking download zip, and extract it somewhere safe.
-- Dump the update of the latest current Balatro, in NCA FS/romFS form using your favorite NX dump tool.
-- Once complete, connect your SD card to your computer, navigate to the dumped update location and zip the various folders and lua scripts into a standard zip, ensuring that your zip contains the dumped files at the root, and are not nested in a folder
-- Copy your dumped zip to the safe location of your extracted repo.
-- Drag the zip onto SteamoddedNX_injector.py and wait for the injector to complete then press Enter.
-- Extract the contents of the modded zip folder into /atmosphere/contents/0100CD801CE5E000/romfs
-- Not needed but if you would like to see crash errors from your mods, open the file globals.lua and edit line 62 and edit self.F_NO_ERROR_HAND and replace true with false
-- Copy the atmosphere folder back to your switch, and enjoy your Balatro with mods!
+- Download this repo by clicking the green `Code` button near the top and clicking `Download ZIP`, and extract it somewhere safe.
+- Dump your current **update** of Balatro, in NCA FS or romFS format using your favorite NX dump tool.
+- Once complete, connect your SD card to your computer, navigate to the dumped update location. ZIP the various folders and lua scripts into a standard ZIP, ensuring that your ZIP contains the dumped files at the root, and are NOT nested in a folder inside the ZIP.
+- Copy your dumped ZIP to the safe location of your extracted repo on your computer
+- Drag the ZIP onto `SteamoddedNX_injector.py` and wait for the injector to complete then press Enter.
+- Extract the contents of the modded ZIP into the included `/atmosphere/contents/0100CD801CE5E000/romfs` directory.
+- This step is not needed but if you would like to see exact crash errors from your mods, while in your romfs folder, open the file `globals.lua` and jump to `line 62` `self.F_NO_ERROR_HAND =`  Now replace `true` with `false`
+- Copy your prepped `atmosphere` folder to your switch sdcard, and enjoy your Balatro with mods!
 
 ## How to Install a Mod
 
