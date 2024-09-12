@@ -2,7 +2,8 @@
 
 ## Prelude
 
-Warning! By using this mod you PROMISE not to ask for help in the official Balatro server! Discussion of any sort of console modding of Balatro is forbidden (for their safety) and will likely result in a warning or a ban from the server. Just don't do it. Secondly, do not bother Steamo or any mod makers on the topic of making their mods work on older versions of Steamodded. Find older versions that work or don't use lovely! 
+### Warning!
+By using this mod you AGREE not to ask for help in the official Balatro server! Discussion of any sort of unofficial console modding of Balatro is forbidden (for their safety.) Doing so will likely result in a warning or a ban from the server. Just don't do it. Secondly, do not bother Steamo or any mod makers on the topic of making their mods work on older versions of Steamodded. Find older versions that work and don't use lovely! 
 
 ## Introduction
 
