@@ -22,13 +22,25 @@ By using this mod you AGREE not to ask for help in the official Balatro server! 
 ### How to Install SteamoddedNX
 
 - Download this repo by clicking the green `Code` button near the top and clicking `Download ZIP`, and extract it somewhere safe.
-- Dump your current **update** of Balatro, in NCA FS or romFS format using your favorite NX dump tool.
+- [Follow the steps to dump](https://github.com/JonJaded/SteamoddedNX/edit/main/README.md#steps-for-dumping) your current **update** of Balatro, in NCA FS or romFS format using your favorite NX dump tool.
 - Once complete, connect your SD card to your computer, navigate to the dumped update location. Copy the `Patch RomFS` folder to inside your repo extraction folder. Now enter the folder and ZIP the contents of the `Patch RomFS` into a standard ZIP, ensuring that your ZIP contains the dumped files at the root, and are NOT nested in an additional folder inside the ZIP.
 - Copy your dumped ZIP inside the safe location of your extracted repo on your computer.
 - Drag the ZIP onto `SteamoddedNX_injector.py` and wait for the injector to complete. If you see `Process completed successfully. Press any key to exit...` then continue, if not, check your zip structure.
 - Extract the contents of the modded ZIP into the included `\atmosphere\contents\0100CD801CE5E000\romfs` directory.
 - This step is not needed but if you would like to see exact crash errors from your mods: while in your romfs folder, open `globals.lua` and jump to `line 62` `self.F_NO_ERROR_HAND =`  Now replace `true` with `false`
 - Copy your prepped `atmosphere` folder to your switch SD card and ensure Balatro launches and functions with the included example mods! More mods can be found below.
+
+### Steps for Dumping 
+
+- Open [NXDumptool_rw_poc](https://github.com/DarkMatterCore/nxdumptool/releases/tag/rewrite-prerelease)
+- Select User titles menu
+- Select 0100CD801CE5E000 - Balatro
+- Select nca / nca fs dump options
+- Select dump update
+- Press Y to set the dump mode into nca fs selection mode (so if its selected correctly, you'll see "raw nca mode", because the mode that is currently selected is nca fs mode, which is what you want.)
+- Select Program #0
+- Select FS selection #2 Patch RomFS
+- Start NCA fs dump.
 
 ## Where to Find Additional Mods
 
