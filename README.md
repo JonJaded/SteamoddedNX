@@ -22,7 +22,7 @@ By using this mod you AGREE not to ask for help in the official Balatro server! 
 ### How to Install SteamoddedNX
 
 - Download this repo by clicking the green `Code` button near the top and clicking `Download ZIP`, and extract it somewhere safe.
-- [Follow the steps to dump](https://github.com/JonJaded/SteamoddedNX/edit/main/README.md#steps-for-dumping) your current **update** of Balatro, in NCA FS or romFS format using your favorite NX dump tool.
+- [Follow the steps to dump](https://github.com/JonJaded/SteamoddedNX?tab=readme-ov-file#steps-for-dumping) your current **update** of Balatro, in NCA FS or romFS format using your favorite NX dump tool.
 - Once complete, connect your SD card to your computer, navigate to the dumped update location. Copy the `Patch RomFS` folder to inside your repo extraction folder. Now enter the folder and ZIP the contents of the `Patch RomFS` into a standard ZIP, ensuring that your ZIP contains the dumped files at the root, and are NOT nested in an additional folder inside the ZIP.
 - Copy your dumped ZIP inside the safe location of your extracted repo on your computer.
 - Drag the ZIP onto `SteamoddedNX_injector.py` and wait for the injector to complete. If you see `Process completed successfully. Press any key to exit...` then continue, if not, check your zip structure.
