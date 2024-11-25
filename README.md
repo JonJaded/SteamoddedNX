@@ -25,6 +25,7 @@ By using this mod you AGREE not to ask for help in the official Balatro server! 
 - [Follow the steps to dump](https://github.com/JonJaded/SteamoddedNX?tab=readme-ov-file#steps-for-dumping) your current **update** of Balatro, in NCA FS or romFS format using your favorite NX dump tool.
 - Once complete, connect your SD card to your computer, navigate to the dumped update location. Copy the `Patch RomFS` folder to inside your repo extraction folder. Now enter the folder and ZIP the contents of the `Patch RomFS` into a standard ZIP, ensuring that your ZIP contains the dumped files at the root, and are NOT nested in an additional folder inside the ZIP.
 - Copy your dumped ZIP inside the safe location of your extracted repo on your computer.
+- Open a terminal/command window: and run **_python -m pip install requests_**
 - Drag the ZIP onto `SteamoddedNX_injector.py` and wait for the injector to complete. If you see `Process completed successfully. Press any key to exit...` then continue, if not, check your zip structure.
 - Extract the contents of the modded ZIP into the included `\atmosphere\contents\0100CD801CE5E000\romfs` directory.
 - This step is not needed but if you would like to see exact crash errors from your mods: while in your romfs folder, open `globals.lua` and jump to `line 62` `self.F_NO_ERROR_HAND =`  Now replace `true` with `false`
